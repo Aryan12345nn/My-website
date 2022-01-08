@@ -200,9 +200,14 @@ p {
 
 /* Home Section */
 #home {
+	/* new line adding for mobile background */
+	width: 100vw;
+    height: 100vh;
+	background-attachment: fixed;
+	/* added done */
 	background-image: url(./img/home-bg.png);
 	background-size: cover;
-	background-position: top center;
+	background-position: center, center;
 	position: relative;
 	z-index: 1;
 }
