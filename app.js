@@ -23,3 +23,16 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+//Replace Text function		 
+$(function () { 
+	count = 0; 
+	wordsArray = ["Ayoo", "AnyIdeas", "🧐", "Aryan", "Web_Developer", "Student", "Web_Designer"]; 
+	setInterval(function () { 
+	  count++; 
+	  $("#word").fadeOut(4000, function () { 
+		$(this).text(wordsArray[count % wordsArray.length]).fadeIn(500); 
+	  }); 
+	}, 5000); 
+  }); 
+  //End Replace Text function	
