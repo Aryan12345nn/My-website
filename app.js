@@ -27,7 +27,7 @@ menu_item.forEach((item) => {
 //Replace Text function		 
 $(function () { 
 	count = 0; 
-	wordsArray = ["Ayoo", "AnyIdeas", "🧐", "Aryan", "Web_Developer", "Student", "Web_Designer"]; 
+	wordsArray = ["Ayoo", "AnyIdeas", "🧐", "Aryan", "Salesforce_Admin", "Salesforce_Developer"]; 
 	setInterval(function () { 
 	  count++; 
 	  $("#word").fadeOut(4000, function () { 
